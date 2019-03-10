@@ -2,7 +2,7 @@
 
 body {
 	font-family: 'Roboto', serif;
-  font-size: 20px; 
+  font-size: 20px;
 }
 
 @media (min-width: 576px) {
@@ -36,12 +36,14 @@ body {
 /* Custom Styles */
 
 main {
-	display: flex;
+	margin-top: 150px;
+  display: flex;
 	flex-direction: column;
 	min-height: 100vh;
 	justify-content: center;
-	padding: 0 30px;
+	padding: 0 200px;
 	text-align: center;
+  padding-bottom: 150px;
 }
 
 main > .intro {
@@ -81,17 +83,20 @@ i.fab, i.fas {
 }
 
 .description {
-  position: relative;
-  top: 50px;
+  position: static;
 }
 
 .highlighted {
   font-weight: bold;
 }
 
-.button {
+.eyecatcher {
   position: relative;
   top: 50px;
+}
+
+.button {
+  position: static;
   background-color: salmon;
   border: none;
   color: white;
@@ -105,6 +110,38 @@ i.fab, i.fas {
   cursor: pointer;
 }
 
+#interests {
+  position: relative;
+  top: 25px;
+}
+
+#music {
+  position: relative;
+  top: 65px;
+}
+
 .button:hover {
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.caption {
+  font-size: 14px;
+  position: relative;
+  top: 90px;
+}
+
+.media {
+  position: relative;
+  top: 100px;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+}
+
+#footer {
+  font-size: 12px;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 20px;
+  display: flex;
 }
