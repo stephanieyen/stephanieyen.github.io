@@ -2,7 +2,7 @@
 
 body {
 	font-family: 'Roboto', serif;
-  font-size: 20px;
+ 	font-size: 20px;
 }
 
 @media (min-width: 576px) {
@@ -36,14 +36,14 @@ body {
 /* Custom Styles */
 
 main {
-	margin-top: 150px;
-  display: flex;
+	padding-top: 150px;
+  	display: flex;
 	flex-direction: column;
 	min-height: 100vh;
 	justify-content: center;
 	padding: 0 200px;
 	text-align: center;
-  padding-bottom: 150px;
+  	padding-bottom: 150px;
 }
 
 main > .intro {
@@ -96,7 +96,8 @@ i.fab, i.fas {
 }
 
 .button {
-  position: static;
+  position: relative;
+  top: 10px;
   background-color: salmon;
   border: none;
   color: white;
@@ -127,12 +128,12 @@ i.fab, i.fas {
 .caption {
   font-size: 14px;
   position: relative;
-  top: 90px;
+  top: 190px;
 }
 
 .media {
   position: relative;
-  top: 100px;
+  top: 200px;
   justify-content: center;
   text-align: center;
   display: flex;
